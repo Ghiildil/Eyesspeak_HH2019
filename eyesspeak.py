@@ -64,7 +64,7 @@ class Interface(Frame, Thread):
         self.changer_image2()  ## Exécute la fonction
         
         # variables
-        f = open("data/dico.txt", "r")  # le fichier dico.txt se trouve dans le dossier data
+        f = open("dico.txt", "r")  # le fichier dico.txt se trouve dans le dossier data
         self.dico = f.read()
         f.close()
         self.phrase=""
